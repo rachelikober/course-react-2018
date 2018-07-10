@@ -7,7 +7,6 @@ import React from 'react';
 const dropDownCountries = ( p ) => {
 
     return (
-        <div>
             <select>  {
                 (p.getContriesList.length>0) ? 
                 p.getContriesList.map((element, index) => {
@@ -17,7 +16,6 @@ const dropDownCountries = ( p ) => {
               }             
                  
             </select>
-        </div>
     )
 };
 
